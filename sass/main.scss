@@ -1,0 +1,461 @@
+.firstWrapper {
+	margin-top: 44px;
+}
+.my-clearfix::before,
+.my-clearfix::after {
+  content: " ";
+  display: block;
+  height: 0; }
+
+.my-clearfix::after {
+  clear: both; }
+.header-items {
+	padding-bottom: 7px;
+}
+.dead_magazine.active {
+	h4 {
+		margin:0;
+		display:block;
+		padding-top:8px;
+	}
+}
+.globalWrapper {
+	min-width: auto;
+}
+.hover_pop_up {
+	display:none;
+}
+@media only screen and (max-width: 480px) {
+	.footer {
+		width:auto;
+	}
+	.firstWrapper {
+	    margin-top: 90px;
+	}
+	.globalWrapper {
+		max-width:100%;
+	}
+	.sale_block {
+		.center,
+		.right {
+			display:none;
+		}
+	}
+	.menuWrapper {
+		height: auto;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    width: 100%;
+		.header-items {
+			padding:0;
+			li {
+				display:block;
+				&:first-child {
+					float:none;
+				}
+				.dead_magazine.active {
+					position: static !important;
+					display:block;
+					margin:0;
+					padding:0;
+					text-align: center;
+					height:60px;
+					width:auto;
+					.time {
+						position: static !important;
+					}
+					h4 {
+						width: auto;
+						text-align:center;
+					}
+				}
+			}
+			
+		}
+	}
+	.firstWrapper {
+		.banerBg  {
+			p.b_text_5 {
+				max-width:300px;
+			}
+		}
+	}
+	.catalog {
+		.item {
+			width: 320px;
+    		left: 0;
+    		display: block;
+    		margin-left: -15px;
+			h3 {
+				margin-top: 65px;
+				margin-left: 15px;
+				height:auto;
+			}
+			.posa {
+				.p1 {
+					margin-left: 0;
+				}
+				.p2 {
+					margin-right: 10px;
+					width:115px;
+					padding-left: 0;
+				}
+				.p3 {
+					float:none;
+				}
+			}
+		}
+	}
+}
+@media only screen and (min-width: 481px) and (max-width: 620px) {
+	.banerBg .b_text_4:after {
+	    content: ' ';
+	    background: url(../images/border_baner_2.png) no-repeat;
+	    height: 1px;
+	    width: 100%;
+	    position: absolute;
+	    margin-top: 50px;
+	    margin-left: -412px;
+	}
+	.firstWrapper {
+	    margin-top: 94px;
+	}
+	.footer {
+		width:auto;
+	}
+	.resize {
+		width:480px;
+	}
+	.globalWrapper {
+		max-width:100%;
+	}
+
+	 .sale_block {
+	 	.center,
+		.right {
+		 		display:none;
+	 	}
+	 }
+	 .menuWrapper {
+	 	height: auto;
+	top: 0;
+	     left: 0;
+	     right: 0;
+	    width: 100%;
+	 	.header-items {
+	 		padding:0;
+	 		li {
+	 			display:block;
+			&:first-child {
+	 				float:none;
+	 			}
+	 			.dead_magazine.active {
+	 				position: static !important;
+	 				display:block;
+	 				margin:0;
+ 				padding:0;
+					text-align: center;
+	 				height:60px;
+ 				width:auto;
+	 				.time {
+	 					position: static !important;
+	 				}
+	 				h4 {
+	 					width: auto;
+	 					text-align:center;
+	 				}
+	 			}
+	 		}
+			
+		}
+	}
+	 //.firstWrapper {
+	// 	.banerBg  {
+	// 		p.b_text_5 {
+	// 			max-width:300px;
+	// 		}
+	// 	}
+	// }
+	
+	 .catalog {
+		.item {
+			    width: 320px;
+    			left: 0;
+    			display: block;
+    			margin-left: -15px;
+    			margin: 0 auto;
+    			&:nth-child(3n) {
+    				margin-right: auto;
+    			}
+			h3 {
+				margin-top: 65px;
+				margin-left: 15px;
+				height:auto;
+			}
+			.posa {
+				.p1 {
+					margin-left: 0;
+				}
+				.p2 {
+					margin-right: 10px;
+					width:115px;
+					padding-left: 0;
+				}
+				.p3 {
+					float:none;
+				}
+			}
+		}
+	}
+	
+}
+@media only screen and (min-width: 621px) and (max-width: 759px) {
+	.banerBg .b_text_4:after {
+	    content: ' ';
+	    background: url(../images/border_baner_2.png) no-repeat;
+	    height: 1px;
+	    width: 100%;
+	    position: absolute;
+	    margin-top: 50px;
+	    margin-left: -412px;
+	}
+	.firstWrapper {
+	    margin-top: 115px;
+	}
+	.footer {
+		width:auto;
+	}
+
+	.globalWrapper {
+		max-width:100%;
+	}
+	.sale_block  {
+		.left {
+			margin-top: -150px;
+	    	margin-left: 25px;
+		}
+		.center {
+			display:block;
+		}
+	    
+	}
+	.menuWrapper {
+	 	height: auto;
+		top: 0;
+	    left: 0;
+	    right: 0;
+	    width: 100%;
+	 	.header-items {
+	 		padding:0;
+	 		li {
+	 			display:block;
+			&:first-child {
+	 				float:none;
+	 			}
+	 			.dead_magazine.active {
+	 				position: static !important;
+	 				display:block;
+	 				margin:0;
+ 				padding:0;
+					text-align: center;
+	 				height:auto;
+ 				width:auto;
+	 				.time {
+	 					position: static !important;
+	 				}
+	 				h4 {
+	 					width: auto;
+	 					text-align:center;
+	 				}
+	 			}
+	 		}
+			
+		}
+	}
+	 //.firstWrapper {
+	// 	.banerBg  {
+	// 		p.b_text_5 {
+	// 			max-width:300px;
+	// 		}
+	// 	}
+	// }
+	.catalog {
+		.item {
+			width: 320px;
+    		left: 0;
+    		display: block;
+    		margin-left: -15px;
+    		&:nth-child(3n) {
+    			margin-right: auto;
+    		}
+    		margin:0 auto 0 auto;
+			h3 {
+				margin-top: 65px;
+				margin-left: 15px;
+				height:auto;
+			}
+			.posa {
+				.p1 {
+					margin-left: 0;
+				}
+				.p2 {
+					margin-right: 10px;
+					width:115px;
+					padding-left: 0;
+				}
+				.p3 {
+					float:none;
+				}
+			}
+		}
+	}
+	
+}
+
+@media only screen and (min-width: 760px) and (max-width: 960px){ 
+	.globalWrapper {
+	    max-width: 100%;
+	}
+	.sale_block  {
+		.left {
+			margin-top: -150px;
+	    	margin-left: 25px;
+		}
+	    
+	}
+	.firstWrapper {
+	    margin-top: 115px;
+	}
+	.footer {
+		width:100%;
+	}
+	.menuWrapper {
+	 	height: auto;
+		top: 0;
+	    left: 0;
+	    right: 0;
+	    width: 100%;
+	 	.header-items {
+	 		padding:0;
+	 		li {
+	 			display:block;
+			&:first-child {
+	 				float:none;
+	 			}
+	 			.dead_magazine.active {
+	 				position: static !important;
+	 				display:block;
+	 				margin:0;
+ 				padding:0;
+					text-align: center;
+	 				height:auto;
+ 				width:auto;
+	 				.time {
+	 					position: static !important;
+	 				}
+	 				h4 {
+	 					width: auto;
+	 					text-align:center;
+	 				}
+	 			}
+	 		}
+			
+		}
+	}
+}
+@media only screen and (min-width: 961px) { 
+	.menuWrapper { 
+		top:0;
+		.header-items {
+			width:900px;
+			margin:0 auto;
+		}
+	}
+
+	.firstWrapper {
+	    margin-top: 55px;
+	    .resize {
+	    	width:960px;
+	    }
+	}
+	.footer {
+		width:100%;
+	}
+	.sale_block {
+		.center {
+			margin-left: 430px;
+		}
+		.right {
+			margin-left: 725px;
+		}
+	}
+	.menuWrapper {
+	 	height: auto;
+		top: 0;
+	    left: 0;
+	    right: 0;
+	    width: 100%;
+	 	.header-items {
+	 		padding:0;
+	 		li {
+	 			float:left;
+	 			p {
+	 				margin-top: 8px;
+	 			}
+	 			.dead_magazine.active {
+	 				position: static !important;
+	 				display:block;
+	 				margin:0;
+ 					padding:0;
+					text-align: center;
+	 				height:auto;
+ 					width:auto;
+
+	 				.time {
+	 					position: static !important;
+	 					padding-top:8px;
+	 					padding-bottom: 8px;
+	 				}
+	 				h4 {
+	 					width: auto;
+	 					text-align:center;
+	 					float:left;
+	 					margin-left: 100px;
+	 					padding-bottom: 8px;
+	 				}
+	 			}
+	 		}
+			
+		}
+	}
+	.catalog {
+		.item {
+			// width: 320px;
+   //  		left: 0;
+   //  		display: block;
+   //  		margin-left: -15px;
+			h3 {
+				margin-top: 65px;
+				margin-left: 0px;
+				height:40px;
+			}
+			.posa {
+				right: 0;
+				.p1 {
+					margin-left: 0;
+				}
+				.p2 {
+					margin-right: 10px;
+					width:115px;
+					padding-left: 0;
+				}
+				.p3 {
+					float:none;
+				}
+			}
+		}
+	}
+	
+}
+

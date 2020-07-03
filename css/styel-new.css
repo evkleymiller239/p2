@@ -1,0 +1,3867 @@
+ 
+/*   
+Theme Name: Тема для Лучшие ПАРФЮМЫ планеты 2
+Theme URI: http://zs-group.net/
+Version: 1.0
+Tags: theme, development, html5
+Description: Шаблон розроблено спеціально для сайта Лучшие ПАРФЮМЫ планеты
+Author: ross-pro
+*/
+/*
+.wpcf7-not-valid-tip,.wpcf7-validation-errors,.ajax-loader,.wpcf7-mail-sent-ok{display:none!important }
+.wpcf7-form p.forms{padding: 0!important}
+.wpcf7-not-valid input{
+    border-color: #f00!important;
+    -webkit-box-shadow: 0 0 3px rgba(255, 0, 0, 0.7)!important;
+    -moz-box-shadow: 0 0 3px rgba(255, 0, 0, 0.7)!important;
+    box-shadow: 0 0 3px rgba(255, 0, 0, 0.7)!important;
+}
+.hide,.hidden{display: none!important}
+#uploaded_file1{display:none;}
+#uploaded_file1{display:none;}
+@font-face{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'HelveticaNeueCyr-Light';
+    src: url('HelveticaNeueCyr-Light.eot-#iefix')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fonts/HelveticaNeueCyr-Light.eot?#iefix*/ format('embedded-opentype'),  url('HelveticaNeueCyr-Light.otf')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fonts/HelveticaNeueCyr-Light.otf*/  format('opentype'),
+    url('HelveticaNeueCyr-Light.woff')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fonts/HelveticaNeueCyr-Light.woff*/ format('woff'), url('HelveticaNeueCyr-Light.ttf')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fonts/HelveticaNeueCyr-Light.ttf*/  format('truetype'), url('HelveticaNeueCyr-Light.svg#HelveticaNeueCyr-Light')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fonts/HelveticaNeueCyr-Light.svg#HelveticaNeueCyr-Light*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alexander';
+    src: url('Alexander.eot-#iefix')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fonts/Alexander.eot?#iefix*/ format('embedded-opentype'),  url('Alexander.woff')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fonts/Alexander.woff*/ format('woff'), url('Alexander.ttf')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fonts/Alexander.ttf*/  format('truetype'), url('Alexander.svg#Alexander')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fonts/Alexander.svg#Alexander*/ format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body, h1, h2, h3, h4, h5, h6, p{font-family: 'Open Sans', sans-serif;-webkit-font-smoothing: antialiased; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;
+}
+.globalWrapper{
+    max-width:1920px;
+    min-width:1090px;
+    margin:0 auto;
+    position:relative;
+    -webkit-box-shadow: 0 0 10px 0 black;
+    -moz-box-shadow: 0 0 10px 0 black;
+    box-shadow: 0 0 10px 0 black;
+    overflow: hidden;
+    height: auto;
+}
+.resize {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+.cf:after,.cf:before {content: '';display: table;}
+.cf:after {clear: both;}
+.cf {zoom: 1;}
+form input[type=text].error{
+    border:2px solid #FB4949;
+    border-top: 5px solid #FB4949;
+}
+label.error{
+    display: none !important;
+}
+input[type=text]::-webkit-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+input[type=text]::-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+input[type=text]:-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+input[type=text]:-ms-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=text]::-webkit-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=text]::-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=text]:-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=text]:-ms-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+
+input[type=tel]::-webkit-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+input[type=tel]::-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+input[type=tel]:-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+input[type=tel]:-ms-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=tel]::-webkit-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=tel]::-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=tel]:-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=tel]:-ms-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+
+
+textarea::-webkit-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #b2b2b2;
+}
+textarea::-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #b2b2b2;
+}
+textarea:-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #b2b2b2;
+}
+textarea:-ms-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #b2b2b2;
+}
+textarea:focus::-webkit-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: transparent;
+}
+input::-webkit-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #010913;
+}
+input::-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #010913;
+}
+input:-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #010913;
+}
+input:-ms-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #010913;
+}
+input:focus::-webkit-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: transparent;
+}
+input:focus:-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: transparent;
+}
+input:focus:-ms-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: transparent;
+}
+.fll{
+    float: left;
+}
+.flr{
+    float: right;
+}
+
+
+input[type=text],
+input[type=tel]{
+    width: 376px;
+    height: 54px;
+    line-height: 54px;
+    display: block;
+    font-size: 14px;
+    border:2px solid #b2b2b2;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    text-indent: 20px;
+    font-weight: bold;
+    border-top: 5px solid #b2b2b2;
+}
+textarea{
+    width: 359px;
+    height: 114px;
+    line-height: 1.2;
+    display: block;
+    font-size: 14px;
+    border:2px solid #b2b2b2;
+    color: #b2b2b2;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+    font-weight: bold;
+    border-top: 5px solid #b2b2b2;
+    padding: 10px;
+    resize: none;
+}
+.modalWindow.feed{
+    height: 560px;
+    background: #fff;
+}
+.modalWindow.feed h2{
+    margin: 0;
+    padding: 40px 0;
+    color: #000;
+}
+.modalWindow{
+    width: 460px;
+    height: 460px;
+    background: #fff;
+
+}
+.modalWindow h2{
+    font-size: 30px;
+    line-height: 1;
+    padding-top: 20px;
+    color: #2c2c2c;
+    text-align: center;
+}
+.modalWindow h3{
+    font-size: 18px;
+    line-height: 1.4;
+    padding-top: 20px;
+    color: #2c2c2c;
+    text-align: center;
+    padding: 10px 30px;
+}
+.modalWindow input{
+    float: none !important;
+    margin: 10px auto;
+}
+input[type=submit]{
+    text-decoration: none;
+    display: block;
+    background: #44d759;
+    width: 382px;
+    height: 60px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 -5px #178928 inset;
+    padding: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    color: #fff;
+    margin: 10px auto 0 auto;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+input[type=submit]:hover{
+    background: #5EFF75;
+}
+input[type=submit]:active{
+    /*background: #0397b2;*/
+}
+.menuWrapper{
+    width: 1920px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    margin-left: -960px;
+    background: #fff;
+    height: auto;
+    z-index: 100;
+    /*background-image: url(img/head_img.png) ;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ff0000;
+    /*display: none;*/
+}
+
+.menuWrapper .left{
+    margin-top: 5px;
+    width: 100%;
+}
+.menuWrapper .left ul{
+    text-align: center;
+}
+.menuWrapper .left ul li{
+    display: inline;
+    display: inline-block;
+    zoom: 1;
+    margin: 0 15px;
+    margin-top: 10px;
+}
+.menuWrapper .right{
+    display: none;
+}
+.menuWrapper .left ul li a{
+    color: #7f7f7f;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.25;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+}
+.menuWrapper .left ul li a:hover{
+    color: #00d0f6;
+    border-bottom: 2px solid #00d0f6;
+}
+.menuWrapper .right p{
+    font-size: 14px;
+    text-align: right;
+    line-height: 1.2;
+    color: #7f7f7f;
+    margin-top: 20px;
+    position: relative;
+}
+.menuWrapper .right p:before{
+    display: block;
+    position: absolute;
+    content: '';
+    background: url(cell.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/cell.png*/ center center no-repeat;
+    width: 29px;
+    height: 49px;
+    left: -38px;
+    top: 3px;
+}
+.menuWrapper .right p span{
+    font-size: 36px;
+    font-weight: 600;
+    color: #000;
+}
+.bin{    
+    position: fixed;
+    right: 0;
+    top: 10px;
+}
+.bin .a2 {
+    padding-right: 30px;
+    text-transform: uppercase;
+    color: #3e9bee;
+    font-size: 13px;
+    /*font-family: 'clear_sansbold';*/
+    text-align: right;
+    clear: both;
+    text-decoration: underline;
+    line-height: 29px;
+    display: block;
+    position: relative;
+}
+.bin .a2:after{
+    background: url(bin.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/bin.png*/ center center no-repeat;
+    height: 29px;
+    width: 29px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 36px;
+    z-index: 102;
+}
+.bin a.a2 span {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #ff2400;
+    color: #fff;
+    line-height: 15px;
+    text-align: center;
+    /*font-family: 'clear_sansregular';*/
+    font-size: 12px;
+    left: 110px;
+    top: 2px;
+    left: 55px;
+    top: 2px;
+    z-index: 103;
+}
+.popup_corsina{
+    width: 780px;
+    height: auto;
+    padding-bottom: 40px;
+}
+.popup_corsina h2{
+    text-align: center;
+    padding-top: 50px;
+    color: #09364e;
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+.popup_corsina .head{
+    width: 620px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+    background: #e2e5ec;
+}
+.popup_corsina .head p{
+    /*font-family: 'clear_sansregular';*/
+    float: left;
+    font-size: 19px;
+    margin: 0;
+    color: #09364e;
+}
+.popup_corsina .head p.tovar{
+    text-indent: 20px;
+    width: 100px;
+}
+.popup_corsina .head p.name{
+    text-indent: 20px;
+    width: 140px;
+}
+.popup_corsina .head p.price{
+    /*text-indent: 20px;*/
+    width: 100px;
+}
+.popup_corsina .head p.suma{
+    text-indent: 20px;
+    width: 100px;
+}
+.popup_corsina .tovar_row .tovar_image{
+    width: 60px;
+}
+.popup_corsina .tovar_row{
+    height: 75px;
+    width: 620px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e2e5ec;
+    clear: both;
+}
+.popup_corsina .tovar_row .tovar_image img{
+    width: 25px;
+    margin: 10px auto;
+    display: block;
+}
+.popup_corsina .tovar_row div{
+    float: left;
+    line-height: 60px;
+    font-size: 16px;
+    color: #09364e;
+}
+.popup_corsina .tovar_row .tovar_name{
+    width: 175px;
+    display: table;
+    height: 65px;
+}
+.popup_corsina .tovar_row .tovar_name p smal {
+    font-size: 12px;
+    display: inline-block;
+}
+.popup_corsina .tovar_row .tovar_name p{
+    display: table-cell;
+    vertical-align: middle;
+    height: inherit;
+    line-height: 1;
+}
+.popup_corsina .tovar_row .tovar_name{
+    font-size: 15px;
+    color: #09364e;
+}
+.popup_corsina .tovar_row .tovar_price{
+    width: 80px;
+}
+.popup_corsina .tovar_row .tovar_price p{
+    /*font-family: 'clear_sansregular';*/
+
+}
+.popup_corsina .tovar_row .tovar_kolichestvo{
+    width: 120px;
+}
+.popup_corsina .tovar_row .tovar_kolichestvo input[type=text]{
+    width: 40px;
+    height: 28px;
+    line-height: 30px;
+    font-size: 19px;
+    border: 1px solid #bac2d3;
+    text-align: center;
+    /*font-family: 'clear_sansregular';*/
+    float: left;
+    text-indent: 0;
+    margin-top: 16px;
+}
+.popup_corsina .tovar_row .tovar_kolichestvo button.ok{
+    background: url(btn_popup_tovar.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/btn_popup_tovar.png*/ center center no-repeat;
+    width: 30px;
+    height: 21px;
+    border: none;
+    padding: 0;
+    float: right;
+    line-height: 21px;
+    font-size: 19px;
+    /*font-family: 'clear_sansregular';*/
+    margin-top: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.popup_corsina .tovar_row .tovar_kolichestvo button.dell{
+    background: url(btn_popup_tovar.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/btn_popup_tovar.png*/ center center no-repeat;
+    width: 30px;
+    height: 21px;
+    border: none;
+    padding: 0;
+    float: right;
+    line-height: 21px;
+    font-size: 19px;
+    /*font-family: 'clear_sansregular';*/
+    margin-top:2px;
+    outline: none;
+    cursor: pointer;
+}
+.popup_corsina .tovar_row .suma{
+    /*font-family: 'clear_sansregular';*/
+    /*text-indent: 20px;*/
+    width: 100px;
+}
+.popup_corsina .head .kolichestvi{
+    /*font-family: 'clear_sansregular';*/
+    /*text-indent: 20px;*/
+    width: 100px;
+}
+.popup_corsina .tovar_suma p{
+    text-indent: 20px;
+    width: 125px;
+    /*font-family: 'clear_sansregular';*/
+    font-size: 19px;
+    margin: 0;
+}
+
+.popup_corsina .itogo p{
+    font-size: 20px;
+    text-align: center;
+    /*font-family: 'clear_sansregular';*/
+    margin: 25px 0;
+}
+.buttons_pokupki{
+    width: 620px;
+    margin: 0 auto;
+}
+.buttons_pokupki a {
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #01d8ff;
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    box-shadow:0 -5px #0397b2 inset;
+    padding: 0;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    color: #fff;
+    margin: 0 auto 25px auto;
+}
+.buttons_pokupki a:hover { background: #01d8ff  }
+.buttons_pokupki a:active {
+    background: #01d8ff;
+    box-shadow:0 -5px #0397b2 inset;
+}
+.buttons_pokupki a{
+    float: left;
+}
+.buttons_pokupki a + a{
+    float: right;
+}
+.catalog  a.catalog-items:hover,
+.catalog  a.catalog-item:hover {
+    color: #fff;
+    background: #44d7f7;
+}
+.catalog  a.catalog-items,
+.catalog  a.catalog-item {
+    width: 215px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    border: 2px solid #44d7f7;
+    margin-top: 0;
+    display: block;
+    color: #44d7f7;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px auto 0 auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.plus,.minus{
+    float: left;
+    margin: 10px;
+    line-height: 45px;
+    text-decoration: none!important;
+    cursor: pointer;
+    -moz-user-select: all;
+    -moz-user-select: text;
+    -moz-user-select: none;
+    -webkit-user-select: auto;
+    -webkit-user-select: none;
+    -webkit-user-select: text;
+    /*margin-left: 18px;*/
+}
+.dell{line-height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 0 0 10px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.plus{
+    margin-left: 18px;
+}
+/*----------------------------------------------------------- NEW STYLES -----------------------------------------------*/
+form input[type=text].error{
+    border:2px solid #FB4949;
+    border-top: 5px solid #FB4949;
+}
+label.error{
+    display: none !important;
+}
+input[type=text]::-webkit-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+input[type=text]::-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+input[type=text]:-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+input[type=text]:-ms-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=text]::-webkit-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=text]::-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=text]:-moz-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea[type=text]:-ms-input-placeholder, text-area::-webkit-input-placeholder{
+    color: #b2b2b2;
+}
+textarea::-webkit-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #b2b2b2;
+}
+textarea::-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #b2b2b2;
+}
+textarea:-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #b2b2b2;
+}
+textarea:-ms-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #b2b2b2;
+}
+textarea:focus::-webkit-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: transparent;
+}
+input::-webkit-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #010913;
+}
+input::-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #010913;
+}
+input:-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #010913;
+}
+input:-ms-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: #010913;
+}
+input:focus::-webkit-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: transparent;
+}
+input:focus::-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: transparent;
+}
+input:focus:-moz-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: transparent;
+}
+input:focus:-ms-input-placeholder {
+    -webkit-transition: color 0.4s ease;
+    -moz-transition: color 0.4s ease;
+    -ms-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+    color: transparent;
+}
+html.js .loader {
+    background: none repeat scroll 0 0 #ffffff;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+html.js .loader_inner {
+    background-image: url("preloader.gif")/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/preloader.gif*/;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+}
+.fll {
+    float: left;
+}
+.flr {
+    float: right;
+}
+.resize {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+.firstWrapper {
+    position: relative;
+    /*height:755px;*/
+    margin-top: 48px;
+    background: url(bg_1.jpg)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/bg_1.jpg*/ center center no-repeat;
+}
+.firstWrapper .resize{
+    width: 1100px;
+}
+.resize_gor_first{
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+}
+.firstWrapper:after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+    background: url(triangle_bg_1.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/triangle_bg_1.png*/ center center no-repeat;
+    bottom: 0;
+    height: 201px;
+}
+.banerBg {
+    height: auto;
+    margin-top: 30px;
+    height: 300px;
+    background-color: #ff0000;
+    /*margin-bottom: 150px;*/
+}
+.banerBg span,.banerBg p,.banerBg button {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    outline: none;
+    color: #fff;
+}
+.banerBg p.b_text_1 {
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.1em;
+    line-height: 40px;
+}
+.banerBg p.b_text_1 span{
+    margin: auto;
+    display: inline-block;
+    color: #fff;
+    font-size: 42px;
+}
+.banerBg p.b_text_2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+}
+.banerBg p.b_text_3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.banerBg p.b_text_3:before {
+    content: ' ';
+    background:  url(baner_border.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/baner_border.png*/  no-repeat;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 40px;
+
+}
+.banerBg p.b_text_3:after {
+    content: ' ';
+    background:  url(baner_border.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/baner_border.png*/  no-repeat;
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.banerBg .b_text_4:after {
+    content: ' ';
+    background:  url(border_baner_2.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/border_baner_2.png*/  no-repeat;
+    height: 1px;
+    width: 459px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: -480px;
+}
+.banerBg p.b_text_3 span {
+    font-size: 40px;
+    font-weight: 800;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.banerBg p.b_text_4 {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.1;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    margin-top: 10px;
+}
+.banerBg p.b_text_5 {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Alexander';
+    margin-top: 35px;
+    line-height: 1.1;
+}
+.banerBg p.b_text_5 span{
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+}
+.banerBg p.b_text_6 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    line-height: 32px;
+}
+.buy {
+    position: relative;
+    z-index: 99;
+    margin-top: 25px;
+    background-color: #44d759;
+    height: 60px;
+    width: 220px;
+    border: none;
+    border-bottom: 4px solid #1ab230;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+.buy a{
+
+    color: #fff;
+        text-decoration: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        left: 0;
+        line-height: 56px;
+        top: 0;
+}
+.buy:hover {
+    cursor: pointer;
+    background-color: #4de462;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.baner_btn {
+    background:  url(bg_bg_ban.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/bg_bg_ban.png*/ center center    no-repeat;
+    margin-bottom: 15px;
+    height: 150px;
+    margin-top: -10px;
+    text-align: center;
+}
+.news_block {
+    background:  url(data:image/jpeg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAAA8AAD/4QOLaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1LjYtYzA2NyA3OS4xNTc3NDcsIDIwMTUvMDMvMzAtMjM6NDA6NDIgICAgICAgICI+IDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+IDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6Rjc3RjExNzQwNzIwNjgxMTgwODNFQjgzQzYyQkQ3QzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MEY3QzZDNThGNUI0MTFFNUEzMDE4M0NCODgyNzlBMTQiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Qzg4ODhFOTZGNUEyMTFFNUEzMDE4M0NCODgyNzlBMTQiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3YmJhMWI2NC1iMjkzLTRjNjAtOGQ0My1lYjg4Mzc4MjZkMzgiIHN0UmVmOmRvY3VtZW50SUQ9ImFkb2JlOmRvY2lkOnBob3Rvc2hvcDoxY2EyYmQyMC0zYWZlLTExNzktYjE0ZC1lODQ0ZjY4OTg0YmIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7/7gAOQWRvYmUAZMAAAAAB/9sAhAAGBAQEBQQGBQUGCQYFBgkLCAYGCAsMCgoLCgoMEAwMDAwMDBAMDg8QDw4MExMUFBMTHBsbGxwfHx8fHx8fHx8fAQcHBw0MDRgQEBgaFREVGh8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx//wAARCAJFB4UDAREAAhEBAxEB/8QAigABAQEBAQEBAAAAAAAAAAAAAAECAwQFCAEBAQEBAQAAAAAAAAAAAAAAAAECAwQQAQEBAAECAwILBgUEAgMAAAARAQIhAzFBEvBRYYEiMoKyUwREBTVxsVITM0VCQyQ0RpGhIyXBYpLiFREBAQEBAAMBAQEAAwEAAAAAAAERAjFBEiEDUSIyQhP/2gAMAwEAAhEDEQA/AP1RoAAAAAAAAAKCAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAIACgAAAAAAAAAAAAAAAAAAAAAAAAAIACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAKAAAAAlAAAABfIE3xAAAAAAAAAAABcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAABAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAABAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABQAAEAAAAAAAAABfIE3xAAAAAAAAAAAAAAoLQKBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAQAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAQFAAAAAAAAAAAAAAAAAAAABAAAAAAAAAUAAAABAAAAAAAAAAAAXyBN8QAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAEAAAAAAAABQAAAAQAAAAAFAAAAAAAEBQAAQFAAAAAAAAAAAAAEAAAAABQAAAAAAAQAAAAAAAAFAASgAAAAAAAAAAACAAAAHkKb4gCAoAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAACAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgACAAAAAAAAAAAAoAAAAAAAAAAAAAgAAAAAAAAAAAAAAKAAAAAAAAAAAIAAAAAAAACggKCAoACAAAAAAAAAACAAAAAAAIAAAC+Qqb4gAAogAKAAAAAAAAAAAAAAAAoAAAAAAAAAAgKAAAAgKAAACAUCgAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAIAAAAAACgAAAAAAAAAAAAAACAoIAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAgAAAAAAAAAAAAAAAAgAAAAACAAAUCgUAEABr/AAis8vEEBaC3AAUQAAAFAAAAAAAAAAAAAAAAAUEoFAoFAAAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAEBQQAAAAAAAAFEAAAAABQAAAAAAABAAUAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAACgUAEAAAAAAABr/ADPL5wqCAAoAC3QWgUAFEAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA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) center center no-repeat;
+    position: relative;
+    height: auto;
+    padding-bottom: 250px;
+    margin-top: 20px;
+}
+.news_block h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    color: #000;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    letter-spacing: 0.1em;
+}
+.news_block p.news_t_1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #007af6;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 40px;
+}
+.news_block p.news_t_2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #007af6;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 23px;
+}
+.news_block .news_top p.news_t_3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    text-align: left;
+}
+.news_block  .news_t_3 span {
+    color: #b0b0b0;
+    font-size: 16px;
+    text-align: left;
+    display: inline-block;
+    padding-right: 20px;
+    font-weight: 600;
+
+}
+.news_block p.news_t_4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+    text-align: left;
+    line-height: 1.5;
+    padding-left: 60px;
+}
+.news_block p.news_t_4 span{
+    font-weight: bold;
+}
+.news_block  img#tolik {
+    width: 380px;
+    margin-top: 35px;
+    height: auto;
+    float: left;
+}
+.exp_r {
+    width: 540px;
+}
+.news_block .exp_r p.news_t_3 {
+    text-align: center;
+    margin: 30px 0;
+}
+.news_block .exp_r p.news_t_4 {
+    padding-left: 0;
+}
+.sale_block .left .sale_t_1 {
+    color: #ff0000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    margin-left: 20px;
+    /*  height: 21px;
+    */  margin-top: 20px;
+}
+.sale_block .left .sale_t_2 {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    background: #ff0000;
+    padding: 0px 10px;
+    line-height: 50px;
+    margin-left: 25px;
+}
+.sale_block .left {
+    margin-top: -150px;
+}
+.sale_block .left img {
+    position: absolute;
+    margin-left: -20px;
+}
+.sale_block .center {
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -130px;
+}
+.sale_block .center:before {
+    content: ' ';
+    background:  url(slash_sale.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/slash_sale.png*/  no-repeat;
+    position: absolute;
+    height: 142px;
+    width: 89px;
+    display: inline-block;
+    margin-top: -20px;
+    margin-left: -80px;
+    display: none;
+}
+.buttons_pokupki a#close_f{
+    background: #858484;
+    box-shadow: 0 -5px #626161 inset;
+
+}
+#oformlenie{
+    background: #44d759;
+    box-shadow: 0 -5px #178928 inset;
+}
+#oformlenie:hover{
+    background: #5EFF75;
+
+}
+.sale_block .center:after {
+    content: '';
+    background:  url(slash_sale.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/slash_sale.png*/  no-repeat;
+    position: absolute;
+    height: 142px;
+    width: 89px;
+    display: none;
+    margin-top: -120px;
+    margin-left: 280px;
+}
+.sale_block .right {
+    background:  url(bg_sale.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/bg_sale.png*/ no-repeat;
+    position: absolute;
+    width: 242px;
+    height: 146px;
+    margin-top: -160px;
+    margin-left: 820px;
+}
+.sale_block .center .sale_t_3 {
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    text-align: left;
+}
+.sale_block .center .sale_t_4 {
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #ff0000;
+    text-align: left;
+}
+.sale_block .right .sale_t_5 {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: -10px;
+}
+.globalWrapper{
+    margin-bottom: -23px;
+}
+.sale_block .right .sale_t_6 {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.sale_block .right span {
+    font-size: 46px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    color: #fff;
+    position: absolute;
+    margin-left: 20px;
+}
+.slider-products .item .posa{
+    top:90px;
+}
+.slider-products .bx-wrapper .bx-viewport{
+    box-shadow: none;
+    border: none;
+}
+.slider-products{
+    padding: 30px 0;
+}
+.parfumes{
+    width: 960px;
+}
+.parfumes  .item .item_img{
+    /*max-height: 120px;*/
+}
+.happy-buy-man{
+    width:300px;overflow: hidden;
+    position: absolute;
+}
+.catalog{
+    height: auto;
+    background: #fff;
+    padding-bottom: 60px;
+}
+.catalog h2{
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin: 50px 0;
+    font-size: 36px;
+    line-height: 1.2;
+}
+.catalog .acction{
+    width: 930px;
+    border: 5px solid #ff236b;
+    height: 340px;
+    padding: 40px 0 20px 0;
+    position: relative;
+}
+.catalog .acction .left{
+    width: 415px;
+    margin-left: 20px;
+    text-align: center;
+}
+.catalog .acction .left p.p1{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ff236b;
+    font-weight: 600;
+}
+.catalog .acction .left p.p1 span{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.catalog .acction .right{
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.catalog .acction .right img{
+    margin-top: 10px;
+}
+.catalog .acction .right p.p2{
+    font-family: 'HelveticaNeueCyr-Light';
+    font-size: 24px;
+    text-align: center;
+    padding: 0 10px;
+    margin-left: 20px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.catalog .acction .right p.p2:before{
+    width: 100px;
+    -webkit-transform: rotate(7.5deg);
+    -ms-transform: rotate(7.5deg);
+    transform: rotate(7.5deg);
+    height: 1px;
+    background: #f04148;
+    top: 7px;
+    left: 12px;
+    position: absolute;
+    content: '';
+}
+.catalog .acction .right .p3{
+    padding: 20px 10px;
+    font-family: 'HelveticaNeueCyr-Light';
+    color: #fff;
+    font-size: 30px;
+    background: #ff236b;
+    text-align: center;
+    margin-left: 20px;
+}
+.catalog .item{
+    width: 280px;
+    margin: 0 20px;
+    text-align: center;
+    display: inline;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    margin-top: 45px;
+    position: relative;
+}
+.catalog .item:nth-child(3n){
+    margin-right: 0;
+}
+.catalog .item h3{
+    font-size: 24px;
+    line-height: 1.1;
+    margin-top: 25px;
+    font-family: 'Alexander';
+}
+.catalog .item h4{
+    text-align: center;
+    color: #7f7f7f;
+    line-height: 1.1;
+    font-size: 12px;
+    min-height: 13px;
+    clear: both;
+    margin: 10px 0 15px 0;
+}
+.catalog .item .line{
+    width: 65px;
+    height: 1px;
+    background: #7f7f7f;
+    clear: both;
+    margin: 0 auto;
+}
+.catalog .item .hover_p{
+    /*height: 60px;*/
+    display: none;
+    font-size: 14px;
+    line-height: 1.4;
+    overflow: hidden;
+    margin-top: 10px;
+    background: #fff;
+    color: #333;
+    z-index: 2;
+}
+
+.catalog .item .hover_block{
+    cursor: pointer;
+}
+.catalog .item .hover{
+    /*position: absolute;*/
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+    z-index: 1;
+    background: url(b2_arr.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/b2_arr.png*/ bottom center no-repeat;
+    height: 40px;
+    position: relative;
+}
+.hover_pop_up{
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+    top: 0;
+    z-index: 3000;
+    position: fixed;
+    background: #ff0000;
+    height: 20px;
+}
+.catalog .item .hover:before{
+    content: 'Описание аромата';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+.catalog .item .hover.active{
+    background: url(arr_up.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/arr_up.png*/ top center no-repeat;
+
+}
+.catalog .item .hover.active:before{
+    content: 'Скрыть описание';
+    top: 21px;
+}
+.catalog .item .hover img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+.catalog .item img{
+    position: relative;
+    z-index: 2;
+    height: 180px;
+    margin-top: 30px;
+    width: auto;
+}
+.catalog .item a.fancybox-modal,
+.button.product_type_simple{
+    width: 180px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    background: #44d759;
+    border: 2px solid #44d759;
+    margin-top: 0;
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 15px auto 0 auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+.catalog .item a.fancybox-modal:hover,
+.button.product_type_simple:hover{
+    color: #fff;
+    background: #5EFF75;
+    border: 2px solid #5EFF75;
+
+}
+.catalog .item .posa{
+    position: absolute;
+    top: 130px;
+    z-index: 1;
+    right: -42px;
+}
+.catalog .item .posa .p0{
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    color: #fff;
+    background: #ff0000;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: -120px;
+    right: 20px;
+    z-index: 200;
+    line-height: 68px;
+}
+.catalog .item .posa .p1{
+    color: #000;
+        text-align: right;
+        width: 100px;
+        margin-left: 30px;
+        font-family: 'HelveticaNeueCyr-Light';
+        font-size: 14px;
+        margin-bottom: 20px;
+        margin-left: 71px;
+        position: relative;
+        
+}
+.catalog .item .posa .p1:before{
+    width: 70px;
+    -webkit-transform: rotate(7.5deg);
+    -ms-transform: rotate(7.5deg);
+    transform: rotate(7.5deg);
+    height: 1px;
+    background: #f04148;
+    top: 7px;
+    left: 36px;
+    position: absolute;
+    content: '';
+}
+.catalog .item .posa .p2{
+    width: 123px;
+    padding-left: 30px;
+    text-align: right;
+    padding-right: 20px;
+    color: #fff;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    font-family: 'HelveticaNeueCyr-Light';
+    background: url(b2_plash.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/b2_plash.png*/ center center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.catalog .item .posa .p3{
+        color: #333;
+        font-weight: bold;
+        border: 1px solid red;
+        margin-top: 25px;
+        width: 85px;
+        clear: both;
+        float: right;
+        font-size: 10px;
+    
+}
+.timerBg{
+    background: url(bg_3.jpg)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/bg_3.jpg*/ center center no-repeat;
+    height: 160px;
+}
+.timerBg h2{
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin: 35px 0 0 0;
+    font-size: 36px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: left;
+}
+.timerBg h3{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 7px;
+}
+.timerBg h3 span{
+    font-weight: bold;
+}
+.timerBg .right{
+    width: 250px;
+    text-align: center;
+}
+.timerBg .right h4{
+    color: #ff236b;
+    font-size: 16px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+#timer .timer_block{
+    margin-top: 5px;
+    color: #7f7f7f;
+    margin-left: 24px;
+    /*font-family: 'MyriadPro-BoldCond';*/
+}
+#timer .timer_block .deys,
+#timer .timer_block .hours{
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    padding-left: 25px;
+    line-height: 34px;
+    border: 2px solid #7f7f7f;
+    text-align: center;
+    width: 60px;
+    height: 34px;
+    display: none;
+}
+#timer .timer_block .deys:after,
+#timer .timer_block .hours:after{
+    display: block;
+    position: absolute;
+    content: 'Дни';
+    font-size: 10px;
+    height: 35px;
+    line-height: 35px;
+    font-family: arial;
+    font-weight: normal;
+    color: #7f7f7f;
+    top: -40px;
+    text-transform: uppercase;
+    left: 50%;
+    margin-left: -47px;
+    letter-spacing: 0px;
+    display: none;
+}
+#timer .timer_block .deys:before,
+#timer .timer_block .hours:before{
+    display: block;
+    position: absolute;
+    content: '';
+    width: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 70px;
+
+    display: none;
+    font-weight: normal;
+    color: #000;
+    top: 0px;
+    left: 94px;
+    letter-spacing: 0px;
+}
+.hours1{
+    position: relative;
+    float: left;
+    display: block;
+    line-height: 25px;
+    border: 2px solid #7f7f7f;
+    text-align: center;
+    width: 40px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 5px;
+    color: #7f7f7f;
+    background: #fff;
+    margin-left: 55px;
+    margin-right: 10px;
+}
+
+.hours1:before{
+    display: block;
+    position: absolute;
+    content: '';
+    width: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 70px;
+    color: #7f7f7f;
+    font-weight: normal;
+    color: #000;
+    top: 0px;
+    left: 94px;
+    letter-spacing: 0px;
+}
+.hours1:after{
+    display: block;
+    position: absolute;
+    content: 'Час';
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    font-family: arial;
+    font-weight: bold;
+    color: #fff;
+    top: 30px;
+    text-transform: uppercase;
+    left: 64px;
+    margin-left: -47px;
+    letter-spacing: 0px;
+}
+#timer .timer_block .minutes{
+    position: relative;
+    float: left;
+    line-height: 25px;
+    border: 2px solid #7f7f7f;
+    text-align: center;
+    width: 40px;
+    height: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    background: #fff;
+    margin-right: 5px;
+}
+#timer .timer_block .minutes:before{
+    display: block;
+    position: absolute;
+    content: '';
+    width: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 70px;
+
+    font-weight: normal;
+    color: #000;
+    top: 0px;
+    left: 94px;
+    letter-spacing: 0px;
+}
+#timer .timer_block .minutes:after{
+    display: block;
+    position: absolute;
+    content: 'Минут';
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    font-family: arial;
+    font-weight: bold;
+    top: 30px;
+    text-transform: uppercase;
+    left: 52px;
+    color: #fff;
+    margin-left: -47px;
+    letter-spacing: 0px;
+}
+#timer .timer_block .seconds{
+    position: relative;
+    float: left;
+    line-height: 25px;
+    border: 2px solid #7f7f7f;
+    text-align: center;
+    width: 40px;
+    height: 25px;
+    font-weight: bold;
+    background: #fff;
+
+    font-size: 18px;
+    margin-right: 5px;
+}
+#timer .timer_block .seconds:before{
+    display: block;
+    position: absolute;
+    content: '';
+    width: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 70px;
+    line-height: 70px;
+
+    font-weight: normal;
+    color: #000;
+    top: 0px;
+    left: 105px;
+    letter-spacing: 0px;
+}
+#timer .timer_block .seconds:after{
+    display: block;
+    position: absolute;
+    content: 'Секунд';
+    font-size: 14px;
+    height: 35px;
+    line-height: 35px;
+    font-family: arial;
+    font-weight: bold;
+    color: #fff;
+    top: 30px;
+    text-transform: uppercase;
+    left: 48px;
+    margin-left: -47px;
+    letter-spacing: 0px;
+}
+
+.why{
+    padding-bottom: 40px;
+    background: url(why_bg.jpg)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/why_bg.jpg*/ center bottom no-repeat;
+}
+.why h2{
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin: 50px 0;
+    font-size: 36px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.why ul{
+    text-align: center;
+}
+.why ul li{
+    width: 280px;
+    margin: 20px 10px;
+    display: inline;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+}
+.why ul li h3{
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.why ul li p{
+    margin-top: 13px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #333;
+}
+.why .item{
+    text-align: center;
+    margin-top: 40px;
+}
+.why .item .left{
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: inline;
+    display: inline-block;
+    font-size: 60px;
+    zoom: 1;
+    vertical-align: top;
+}
+.why .item .left p{
+    font-family: 'Alexander';
+    margin-top: 5px;
+    line-height: 1;
+    font-size: 70px;
+    margin-top: 14px;
+    color: #333;
+}
+.red_block_act{
+    clear: both;
+    width: 100%;
+    padding: 20px 0;background: #ff1919;
+    margin-top: 40px;
+}
+.red_block_act h4{
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 36px;
+    border-bottom: 1px solid #fff;
+    line-height: 1.3;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.red_block_act h5{
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.3;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.why .item .left .p2{
+    font-size: 36px;
+    line-height: 1;
+    text-align: left;
+    margin-top: 12px;
+}
+.why .right p{
+    margin: 30px 0 0 0;
+    text-align: right;
+    color: #7f7f7f;
+}
+.feed{
+    background: #fff;
+    padding-bottom: 50px;
+}
+.feed h2{
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin: 50px 0;
+    color: #333;
+    font-size: 36px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.feed a.fancybox-modal{
+    width: 215px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    border: 2px solid #33cc66;
+    margin-top: 0;
+    display: block;
+    color: #33cc66;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 20px auto 0 auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 50px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    background: #fff;
+
+}
+.feed a.fancybox-modal:hover{
+    color: #44d7f7;
+    background: #fff;
+}
+.feed .slider{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 40px;
+    overflow: hidden;
+}
+.feed .row{
+    clear: both;
+}
+.feed .row + .row{
+    padding-top: 60px;
+    clear: both;
+}
+.feed .owl-item .owl-item .row{
+    padding-bottom: 50px;
+    background: url(bg_feed.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/bg_feed.png*/ center bottom no-repeat;
+}
+.feed .owl-item .left img{
+    width: 180px;
+    height: auto;
+    display: block;
+    
+    margin: 0 auto;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.feed .owl-item .left{
+    width: 180px;
+    height: 180px;
+    position: relative;
+    margin-left: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.feed .owl-item .right{
+    width: 540px;
+    height: auto;
+    margin-right: 120px;
+}
+
+.feed .owl-item .right2{
+    /*height: 185px;*/
+    /*display: table;*/
+}
+.feed .owl-item .right2>p{
+    color: #fff;
+    /*height: 185px;*/
+    /*display: table-cell;*/
+    vertical-align: middle;
+    width: 540px;
+    text-align: left;
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    line-height: 1.3;
+}
+.feed .owl-item .right p+p{
+    font-size: 14px;
+    color: #333;
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.last{
+    background: url(bg_5.jpg)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/bg_5.jpg*/ center center no-repeat;
+    height: 420px;
+}
+.last form{
+    width: 400px;
+    margin-top: 60px;
+}
+.last form h2{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.4;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.last form h2 span{
+
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.footer{
+    min-height: 90px;
+    color: #fff;
+    background: #333333;
+}
+.footer .left,.footer .right{
+    width: 250px;
+}
+.footer .center{
+    width: 460px;
+    float: right;
+}
+.footer .right{
+    display: none;
+}
+.footer .left p{
+    font-size: 16px;
+    padding-top: 26px;
+    line-height: 1.2;
+}
+.footer .right p{
+    font-size: 14px;
+    text-align: right;
+    line-height: 1.2;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+}
+.footer .right p:before{
+    display: block;
+    position: absolute;
+    content: '';
+    background: url(cell2.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/cell2.png*/ center center no-repeat;
+    width: 29px;
+    height: 49px;
+    left: 0px;
+    top: 3px;
+}
+.footer .right p span{
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+.footer .center{
+
+
+}
+.footer .center a{
+    text-align: center;
+    width: 190px;
+    color: #fff;
+    line-height: 1;
+    margin-top: 23px;
+    text-decoration: underline;
+    display: block;
+    margin: 0 auto;
+    margin-top: 36px;
+    float: right;
+}
+.footer .center a:hover{
+    text-decoration: none;
+}
+.fileName {
+    color: #2d9ae0;
+    font-size: 15px;
+    display: block;
+    margin: 20px 0;
+    margin-left: 42px;
+    padding-left: 17px;
+    background: url(plus.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/plus.png*/ center left no-repeat;
+    cursor: pointer;
+}
+.feed {
+    position: relative;
+}
+.feed .owl-carousel .owl-item{
+    /*width: 800px !important;*/
+}
+.feed .owl-carousel .owl-next {
+    width: 65px;
+    height: 65px;
+    background: url(arr_r.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/arr_r.png*/ no-repeat center center;
+    position: absolute;
+    right: 0px;
+    top: 155px;
+    font-size: 0;
+    cursor: pointer;
+}
+.feed .owl-carousel .owl-prev {
+    width: 65px;
+    height: 65px;
+    background: url(arr_l.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/arr_l.png*/ no-repeat center center;
+    position: absolute;
+    left: 0px;
+    top: 155px;
+    font-size: 0;
+    cursor: pointer;
+}
+.modalWindow.two{
+    width: 700px;
+    height: 200px;
+
+}
+.modalWindow.two h2{
+    text-align: center;
+    padding-top: 60px;
+}
+.firstWrapper .owl-controls{
+    text-align: center;
+    /*display: none !important;*/
+}
+.firstWrapper{
+    position: relative;
+}
+.firstWrapper .owl-controls .owl-pagination{
+    width: 1090px;
+    padding-left: 415px;
+    padding-right: 415px;
+    left: 50%;
+    margin-left: -960px;
+    height: auto;
+    position: absolute;
+    background: rgba(0,0,0,0.75);
+    min-height: 140px;
+    bottom: 0;
+    z-index: 150;
+    margin-top: 0;
+    padding-top: 15px;
+    text-align: left;
+}
+.firstWrapper .owl-carousel .owl-controls .owl-pagination .owl-page{
+    margin: 20px 3px 0 3px;
+    text-align: left;
+    width: 100px;
+    font-size: 0;
+    cursor: pointer;
+    padding: 0 5px;
+    /*font-size: 10px;*/
+
+}
+.firstWrapper .owl-carousel .owl-next {
+    width: 65px;
+    height: 65px;
+    background: url(arr_right1.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/arr_right1.png*/ no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    right: 50%;
+    margin-right: -600px;
+    top: 195px;
+    font-size: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+.firstWrapper .owl-carousel .owl-prev {
+    width: 65px;
+    height: 65px;
+    background: url(arr_left1.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/arr_left1.png*/ no-repeat center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: 195px;
+    font-size: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    cursor: pointer;
+}
+.firstWrapper .owl-carousel .owl-controls .owl-pagination .owl-page:hover span,
+.firstWrapper .owl-carousel .owl-controls .owl-pagination .owl-page.active span{
+    color: rgba(255,255,255,.7);
+    text-decoration: underline;
+}
+.firstWrapper .owl-carousel .owl-controls .owl-pagination .owl-page span{
+    padding-top: 5px;
+}
+.firstWrapper .owl-carousel .owl-controls .owl-pagination .owl-page:nth-child(1),
+.firstWrapper .owl-carousel .owl-controls .owl-pagination .owl-page:nth-child(11n){
+    margin-left: 0;
+}
+.firstWrapper .owl-carousel .owl-controls .owl-pagination .owl-page:nth-child(10n){
+    margin-right: 0;
+}
+.firstWrapper .owl-carousel .owl-controls .owl-pagination .owl-page:nth-child(10n){
+    border-right: 0;
+}
+.firstWrapper .owl-carousel .price-block {
+    z-index: 5;
+    position: relative;
+    margin-top: 20px;
+    background: rgba(0,0,0,0.55);
+    width: 460px;
+    height: auto;
+    padding: 20px;
+}
+.firstWrapper .owl-carousel .price-block ul{
+    text-align: center;
+    clear: both;
+    height: 80px;
+}
+.firstWrapper .owl-carousel .price-block ul li{
+    position: relative;
+    vertical-align: top;
+    width: 45%;
+    float: left;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.firstWrapper .owl-carousel .price-block ul li:before{
+    position: absolute;
+    content: 'Старая цена';
+    top: -45px;
+    left: 40px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+}
+.firstWrapper .owl-carousel .price-block ul li:nth-child(1):after {
+    width: 108px;
+    -webkit-transform: rotate(7.5deg);
+    -ms-transform: rotate(7.5deg);
+    transform: rotate(8.5deg);
+    height: 3px;
+    background: #f04148;
+    top: 8px;
+    left: 48px;
+    position: absolute;
+    content: '';
+}
+.firstWrapper .owl-carousel .price-block ul li:nth-child(2){
+    font-size: 48px;
+    font-weight: 900;
+    font-style: italic;
+}
+.firstWrapper .owl-carousel .price-block ul li:nth-child(2):before{
+    content: 'Новая цена';
+    top: -45px;
+    left: 41px;
+    font-style: normal;
+}
+.new_posa{
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
+.bin{
+    position: fixed !important;
+        top: 6px!important;
+    height: 19px;
+    padding: 7px 0;
+    width: 203px;
+    z-index: 7005;
+    /* background: #ff0000; */
+     zoom: 1; 
+}
+
+.dostavkaWrapper{
+    background: url(bg_dostavka.jpg)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/bg_dostavka.jpg*/ center center no-repeat;
+    height: 445px;
+}
+.dostavkaWrapper h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: bold;
+    /*margin-top: 40px;*/
+    padding-top: 60px;
+    line-height: 0.7;
+}
+.dostavkaWrapper h2 span{
+    font-size: 24px;
+    font-weight: normal;
+}
+.dostavkaWrapper .line{
+    width: 325px;
+    height: 1px;
+    margin: 30px 0;
+    background: #fff;
+}
+.dostavkaWrapper ul{
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.dostavkaWrapper ul li{
+    display: block;
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.dostavkaWrapper  p{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.finalWrapper{
+    height: 20px;
+    text-align: center;
+}
+.finalWrapper h2{
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 28px;
+    text-align: center;
+    background: #ff0000;
+    display: inline;display: inline-block;
+    zoom: 1;
+    font-weight: 500;
+    line-height: 1.3;
+    margin: 0 auto;
+    margin-top: 690px;
+}
+.finalWrapper a{
+    display: inline;
+    display: inline-block;
+    zoom: 1;
+    color: #333;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 20px;
+    margin-top: 40px;
+}
+.finalWrapper a:hover{
+    text-decoration: none;
+    opacity: 0.9;
+}
+.finalWrapper h3{
+    /*margin-top: 40px;*/
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 24px;
+    text-align: center;
+    background: #ff0000;
+    display: inline;display: inline-block;
+    zoom: 1;
+    margin-top: -1px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin: 0 auto;
+}
+.sale_block{
+    padding-top: 50px;
+}
+.slider-products.catalog .item{
+    zoom: 0.9;
+    background: #fff;
+}
+.parfumes .item img {
+    /* max-height: 120px; */
+    height: 225px !important;
+    width: auto;
+    margin: 0 auto;
+}
+
+/*.slider-products.catalog .item{
+    width: 180px;
+    zoom: 0.6;
+}
+.slider-products.catalog .item .item_img{
+    /*height: 100px;
+    width: auto;
+}*/
+.parfumes .owl-carousel .owl-prev {
+    width: 65px;
+    height: 65px;
+    background: url(arr_l.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/arr_l.png*/ no-repeat center center;
+    position: absolute;
+    left: -40px;
+    top: 103px;
+    font-size: 0;
+    cursor: pointer;
+}
+.parfumes .owl-carousel .owl-next {
+    width: 65px;
+    height: 65px;
+    background: url(arr_r.png)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/arr_r.png*/ no-repeat center center;
+    position: absolute;
+    right: -40px;
+    top: 103px;
+    font-size: 0;
+    cursor: pointer;
+}
+.happy-buy-man {
+    right: 0px;
+    width: 250px;
+    top: 400px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 100;
+    width: 300px;
+    height: 140px;
+    zoom: 0.6;
+}
+.happy-buy-man .item-s{
+    position: absolute;
+    right: -300px;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+    opacity:0;
+    background: #00ffff;
+    -webkit-transition: opacity 0.4s ease;
+    -moz-transition: opacity 0.4s ease;
+    -ms-transition: opacity 0.4s ease;
+    -o-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+    -webkit-transition: right 0.4s ease;
+    -moz-transition: right 0.4s ease;
+    -ms-transition: right 0.4s ease;
+    -o-transition: right 0.4s ease;
+    transition: right 0.4s ease;
+}
+.happy-buy-man .item-s.active{
+    right:0;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease;
+    -moz-transition: opacity 0.4s ease;
+    -ms-transition: opacity 0.4s ease;
+    -o-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+    -webkit-transition: right 1s ease;
+    -moz-transition: right 1s ease;
+    -ms-transition: right 1s ease;
+    -o-transition: right 1s ease;
+    transition: right 1s ease;
+}
+.happy-buy-man .name-man{
+    float: left;
+    margin-left: 10px;
+    font-size:18px;
+    margin-top: 10px;
+    max-width: 180px;
+}
+.happy-buy-man .name-man strong{
+    font-size: 15px;
+}
+
+.happy-buy-man .quant-parum{
+    font-size: 60px;
+    float: right;
+    font-family: 'Alexander';
+    margin-right: 20px;
+    margin-top: 25px;
+}
+.happy-buy-man .quant-parum strong{
+    font-size: 18px;
+}
+.dead_magazine.active {
+    min-width: 320px;
+    position: absolute;
+    /*top:500px;*/
+    top: 93px;
+      width: 320px;
+      height: 134px;
+      background: transparent;
+      text-align: center;
+      color: #fff;
+      zoom: 1;
+      z-index: 2000;
+      width: 500px;
+      height: 40px;
+      top: 2px !important;
+      z-index: 4000;
+
+}
+.dead_magazine h4{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.not-timer{
+  width: 1920px;
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+  background: #FF0000;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  bottom: -40px;
+}
+.not-timer p{
+    margin-top: -8px;
+} */
+@media (min-width:1600px){
+  .bin{
+    zoom: 1;
+  }
+  .happy-buy-man{
+    zoom: 1;
+  }
+  .dead_magazine{
+    zoom: 1;
+  }
+}
+@media (max-width:1300px){
+/*  .dead_magazine{
+    zoom: 0.5 !important;
+    left: -40px !important;
+  }*/
+}
+.bin.active,
+.dead_magazine.active{
+    position: fixed !important;
+    top: 2px!important;
+    z-index: 2000;
+}
+.dead_magazine.active{
+    width: 470px;
+    height: 40px;
+    top: 2px !important;
+    z-index: 4000;
+}
+.dead_magazine.active h4{
+    padding-top: 14px;
+    width: 250px;
+}
+.dead_magazine.active .time{
+    position: absolute;
+    right: 0;
+    width: 250px;
+    top: 5px;
+}
+.dead_magazine.active .time .hours1{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.menuWrapper.active .not-timer{
+    top: 0;
+    bottom: auto;
+}
+.dead_magazine.active1{
+    top: 2px !important;
+}
+.bin.active{
+    /*zoom: 1;*/
+    top: 0 !important;
+    background: #ff0000;
+    padding: 10px 0;
+    z-index: 4000!important;
+
+    /*margin-top: 20px;*/
+}
+.bin .a2{
+    color: #fff;
+}
+.bin a.a2 span{
+    background: #fff;
+    color: #ff0000;
+}
+.menuWrapper.active.active{
+    background: #fff;
+    height: auto;
+}
+.menuWrapper.active .menuBlock{
+    display: none;
+}
+.hover_pop_up.active{
+    background: #ff0000;
+}
+.dead_magazine.active .deys:after,
+.dead_magazine.active .seconds:after,
+.dead_magazine.active .hours1:after,
+.dead_magazine.active .minutes:after{
+    display: none !important;
+    content: '' !important;
+}
+.parfumes .hover_block{    display: none;}
+.catalog .item .item_img {
+    position: relative;
+    z-index: 2;
+    height: 210px;
+    margin-top: 30px;
+}
+.return-to-shop{
+	text-align: center;
+}
+.fancybox-lock h2{
+	text-align: center;
+}
+.fancybox-lock input[type=text],
+.fancybox-lock input[type=tel]{
+    /*width: 376px !important;*/
+	/*width: 376px;*/
+	height: 54px;
+	/*margin: 0 auto;*/
+}
+.fancybox-lock .wpcf7-not-valid{
+	/*display: block;*/
+	/*margin: 0 auto;*/
+	/*margin-top: 10px;*/
+    border: 2px solid #f00;
+	border-top: 5px solid #f00;
+	/*width: 376px;*/
+	/*height: 54px;*/
+
+}
+.checkout input{
+
+}
+.fancybox-lock .checkout p.form-row {
+    height: 54px!important;
+    width: 329px !important;
+    clear: both!important;
+    margin-top: 20px!important;
+    float: none !important;
+}
+.checkout textarea{
+    margin-top: 20px;
+    clear: both;
+}
+.box-shadow{    background: url('fancybox_overlay-1.png')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fancybox/fancybox_overlay.png*/;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    display: none;}
+.box-shadow:after{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    background: url('fancybox_loading-1.gif')/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/fancybox/fancybox_loading.gif*/ no-repeat center center;
+    width: 24px;
+    height: 24px;
+    content: '';
+}
+.catalog h3{
+    color: #333;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    line-height: 50px;
+    font-size: 24px;
+}
+.catalog .item h3{
+    border: none;
+}
+.male{
+    margin-top: 50px;
+}
+[name="checkout"] p{
+    clear: both;
+    width: 100%!important;
+}
+.checkout h2{
+    text-align: center;
+    padding: 25px 0;
+}
+.dostavkaWrapper.ru{
+    background: url(bg_dos.jpg)/*tpa=http://topperfumes.in.ua/wp-content/themes/parfums/img/bg_dos.jpg*/ center center no-repeat;
+}
+.woocommerce-message{
+    display: none;}
+    #close_order {
+        background: none !important;
+        box-shadow: none !important;
+        text-decoration: underline !important;
+        color: 000 !important;
+    }
+.sell-block{ position: relative; margin: 40px 0 15px; /*border: 3px solid #ff0000;*/ padding: 10px 0 10px 10px; text-align: center; color: #ff0000;    font-size: 23px; font-weight: 600;}
+.sell-sum{border: 2px solid #ff0000!important;}
+.sell-sum .tovar_suma{position: relative}
+.sell-sum .tovar_suma p:first-child{position:absolute;top:-18px;left:29px;z-index:3;color:#555;font-size:16px}
+.sell-sum .tovar_suma:before{width:65px;-webkit-transform:rotate(7.5deg);-ms-transform:rotate(7.5deg);transform:rotate(7.5deg);height:1px;background:#f04148;top:11px;left:48px;position:absolute;content:''}
+.dell{    z-index: 99;
+    position: relative;}
+
+.slider-products.catalog {
+    display: none !important;
+}
+.sale_block .right.ru span{
+    font-size: 34px;
+    line-height: 59px;
+}
+.sale_block .right.ru span{
+    font-size: 34px;
+    line-height: 59px;
+}
+.plus-product{
+    color: #ff0000;
+    border: 2px solid #ff0000;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.infoTwoOrder .fancybox-close{
+    display: none;
+}
+.infoTwoOrder p+p{
+    padding-top:15px;
+    text-align: right;
+    padding-right: 5px;
+}
+.infoTwoOrder p+p a{
+    margin-right: 10px;
+    padding: 3px 8px;
+    background: #ccc;
+    color: #fff;
+}
+.infoTwoOrder p+p a[href="#refresh"]{
+    text-decoration: none;
+    display: inline-block;
+    background: #44d759;
+    line-height: 24px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    color: #fff;
+    margin: 10px auto 0 auto;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.infoTwoOrder p+p a:hover{
+    background: #555;
+    text-decoration: none;
+}
+.infoTwoOrder p+p a[href="#refresh"]:hover{
+    background: #5EFF75;
+}
+.infoTwoOrder .fancybox-inner{
+    text-align: center;
+    height: 123px!important;
+    overflow: hidden;
+}
+@media (max-width: 960px){
+	.globalWrapper {
+    max-width: 760px;
+    min-width: 760px;
+	-webkit-box-shadow: none;
+	box-shadow:none;
+}
+
+.menuWrapper{
+	width:760px;
+	/* border:1px dotted red; */
+}
+
+.resize { 
+    position: relative;
+    width: 760px;
+    margin: 0 auto;
+}
+.my-dost{
+	width: 50%;
+    margin: 0;
+}
+.my-dost h2{
+	font-size: 2em !important;
+}
+.resize_gor_first {
+    width: 760px;
+    margin: 0 auto;
+    display: block;
+}
+
+.news_block img#tolik {
+    width: 760px;
+    margin-top: 35px;
+    height: auto;
+    float: left;
+}
+
+.exp_r {
+    width: 760px;
+}
+
+.banerBg p.b_text_1 span {
+    margin: auto;
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+}
+
+.banerBg p.b_text_1 {
+    margin-top: 0px; 
+  
+}
+
+.news_block p.news_t_4 {
+    padding-left: 0px;
+}
+
+.why ul li {
+    width: 130px;
+}
+
+
+
+.firstWrapper .resize {
+    width: 760px;
+}
+
+
+
+
+.sale_block .left .sale_t_1 {
+    font-size: 25px;
+    margin-left: 20px;
+   
+}
+
+.sale_block .left .sale_t_2 {
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+
+
+.dostavkaWrapper{
+	background:none;
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper h2{
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper ul li{
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper h2 span{
+	color:#666;
+	text-align:center;
+}
+
+.finalWrapper{
+	width: 760px;
+	background:none;
+	height:auto;
+}
+
+.finalWrapper h2 {
+    margin-top: 0;
+}
+
+.footer {
+    width: 760px;
+}
+
+.why h2 {
+    font-size: 32px;
+    
+}
+
+.catalog .item .posa {
+    right: -20px;
+}
+
+.dead_magazine.active{
+	width: 760px;
+}
+
+.dead_magazine.active .time {
+    width: 250px;
+	left:210px;
+}
+
+
+
+.feed{
+	display:none;
+}
+
+.footer .left, .footer .right {
+    width: 760px;
+}
+
+.dostavkaWrapper{
+	height:auto;
+}
+
+.dostavkaWrapper .line{
+	display:none;
+}
+
+.dostavkaWrapper ul{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.dostavkaWrapper h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.popup_corsina{
+	width: 620px;
+}
+
+.popup_corsina .head {
+    width:620px;
+}
+
+.popup_corsina .head p.tovar{
+	width:100px;
+}
+.popup_corsina .head p.name{
+	display:none;
+}
+.popup_corsina .head p.price{
+	width:80px;
+}
+.popup_corsina .head .kolichestvi{
+	width:80px;
+}
+.popup_corsina .head p.suma{
+	width:80px;
+}
+
+.popup_corsina .tovar_row {
+    width: 620px;
+}
+
+
+.buttons_pokupki a{
+	width:300px;
+}
+
+.sell-block {
+  margin:0;
+  padding:0;
+}
+
+
+.popup_corsina h2{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+
+.catalog .item {
+    margin: 0 20px;
+}
+}  
+@media (max-width: 760px){
+	.globalWrapper {
+    max-width: 640px;
+    min-width: 640px;
+	-webkit-box-shadow: none;
+	box-shadow:none;
+}
+
+.menuWrapper{
+	width:640px;
+	/* border:1px dotted red; */
+}
+
+.resize { 
+    position: relative;
+    width: 640px;
+    margin: 0 auto;
+}
+.my-dost{
+	width: 50%;
+    margin: 0;
+}
+.my-dost h2{
+	font-size: 2em !important;
+}
+.resize_gor_first {
+    width: 640px;
+    margin: 0 auto;
+    display: block;
+}
+
+.news_block img#tolik {
+    width: 640px;
+    margin-top: 35px;
+    height: auto;
+    float: left;
+}
+
+.exp_r {
+    width: 640px;
+}
+
+.banerBg p.b_text_1 span {
+    margin: auto;
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+}
+
+.banerBg p.b_text_1 {
+    margin-top: 0px; 
+  
+}
+
+.news_block p.news_t_4 {
+    padding-left: 0px;
+}
+
+.why ul li {
+    width: 130px;
+}
+
+
+
+.firstWrapper .resize {
+    width: 640px;
+}
+
+
+
+
+.sale_block .left .sale_t_1 {
+    font-size: 25px;
+    margin-left: 20px;
+   
+}
+
+.sale_block .left .sale_t_2 {
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+
+
+.dostavkaWrapper{
+	background:none;
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper h2{
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper ul li{
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper h2 span{
+	color:#666;
+	text-align:center;
+}
+
+.finalWrapper{
+	width: 640px;
+	background:none;
+	height:auto;
+}
+
+.finalWrapper h2 {
+    margin-top: 0;
+}
+
+.footer {
+    width: 640px;
+}
+
+.why h2 {
+    font-size: 32px;
+    
+}
+
+.catalog .item .posa {
+    right: -20px;
+}
+
+.dead_magazine.active{
+	width: 640px;
+}
+
+.dead_magazine.active .time {
+    width: 250px;
+	left:210px;
+}
+
+
+
+.feed{
+	display:none;
+}
+
+.footer .left, .footer .right {
+    width: 640px;
+}
+
+.dostavkaWrapper{
+	height:auto;
+}
+
+.dostavkaWrapper .line{
+	display:none;
+}
+
+.dostavkaWrapper ul{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.dostavkaWrapper h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.popup_corsina{
+	width: 620px;
+}
+
+.popup_corsina .head {
+    width:620px;
+}
+
+.popup_corsina .head p.tovar{
+	width:100px;
+}
+.popup_corsina .head p.name{
+	display:none;
+}
+.popup_corsina .head p.price{
+	width:80px;
+}
+.popup_corsina .head .kolichestvi{
+	width:80px;
+}
+.popup_corsina .head p.suma{
+	width:80px;
+}
+
+.popup_corsina .tovar_row {
+    width: 620px;
+}
+
+
+.buttons_pokupki a{
+	width:300px;
+}
+
+.sell-block {
+  margin:0;
+  padding:0;
+}
+
+
+.popup_corsina h2{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+
+.catalog .item {
+    margin: 0 10px;
+}
+}
+@media (max-width: 620px){
+	.globalWrapper {
+    max-width: 440px;
+    min-width: 440px;
+	-webkit-box-shadow: none;
+	box-shadow:none;
+}
+
+.menuWrapper{
+	width:440px;
+	/* border:1px dotted red; */
+}
+
+.resize {
+    position: relative;
+    width: 440px;
+    margin: 0 auto;
+}
+.my-dost{
+	width: 50%;
+    margin: 0;
+}
+.my-dost h2{
+	font-size: 2em !important;
+}
+.resize_gor_first {
+    width: 440px;
+    margin: 0 auto;
+    display: block;
+}
+
+.news_block img#tolik {
+    width: 440px;
+    margin-top: 35px;
+    height: auto;
+    float: left;
+}
+
+.exp_r {
+    width: 440px;
+}
+
+.banerBg{
+	width:100%; 
+}
+
+.banerBg p.b_text_1 span {
+    margin: auto;
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+}
+
+.banerBg p.b_text_1 {
+    margin-top: 0px; 
+  
+}
+
+.news_block p.news_t_4 {
+    padding-left: 0px;
+}
+
+.why ul li {
+    width: 130px;
+}
+
+.feed .owl-carousel .owl-item {
+    width: 440px !important;
+}
+
+.firstWrapper .resize {
+    width: 440px;
+}
+
+.sale_block .left img{
+	margin-left:0px;
+	width:440px;
+}
+
+
+.sale_block .left .sale_t_1 {
+    font-size: 25px;
+    margin-left: 20px;
+   
+}
+
+.sale_block .left .sale_t_2 {
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.owl-item{
+	width:440px;
+}
+
+.feed .owl-item .right2>p{
+	width:440px;
+}
+
+.feed .owl-item .right2{
+	width:440px;
+}
+
+.feed .owl-item .right{
+	width:440px;
+}
+
+.dostavkaWrapper{
+	background:none;
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper h2{
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper ul li{
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper h2 span{
+	color:#666;
+	text-align:center;
+}
+
+.finalWrapper{
+	width:440px;
+	background:none;
+	height:auto;
+}
+
+.finalWrapper h2 {
+    margin-top: 0;
+}
+
+.footer {
+    width:440px;
+}
+
+.why h2 {
+    font-size: 32px;
+    
+}
+
+.catalog .item .posa {
+    right: -20px;
+}
+
+.dead_magazine.active{
+	width:440px;
+}
+
+
+
+.dead_magazine.active .time {
+    width: 250px;
+	left:70px;
+	
+}
+
+
+.dead_magazine.active h4{
+	font-size:14px;
+	width: 180px;
+	line-height: 14px;
+	text-align:left;
+}
+
+.banerBg p.b_text_4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.banerBg p.b_text_1 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.banerBg p.b_text_1 span {
+    font-size: 18px;
+}
+
+.banerBg p.b_text_2 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.banerBg p.b_text_3 span {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.banerBg p.b_text_5 {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.banerBg p.b_text_6 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.news_block .news_t_3 span {
+    padding-right: 0px;
+}
+
+.feed{
+	display:none;
+}
+
+.footer .left, .footer .right {
+    width: 440px;
+}
+
+.dostavkaWrapper{
+	height:auto;
+}
+
+.dostavkaWrapper .line{
+	display:none;
+}
+
+.dostavkaWrapper ul{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.dostavkaWrapper h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.dead_magazine,
+.menuBlock,
+.menuWrapper ,
+.hover_pop_up{
+	height:60px;
+}
+
+.popup_corsina h2{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.popup_corsina{
+	width:440px;
+}
+
+.popup_corsina .head {
+    width:440px;
+}
+
+.popup_corsina .head p.tovar{
+	width:90px;
+}
+.popup_corsina .head p.name{
+	display:none;
+}
+.popup_corsina .head p.price{
+	width:60px;
+}
+.popup_corsina .head .kolichestvi{
+	width:70px;
+}
+.popup_corsina .head p.suma{
+	width:50px;
+}
+
+
+
+.buttons_pokupki {
+    width: 440px;
+}
+
+.popup_corsina .tovar_row {
+    width: 440px;
+}
+
+.buttons_pokupki a{
+	width:100%;
+}
+
+.buttons_pokupki a + a {
+	float: left;
+}
+
+.plus-product{
+	display:block;
+}
+
+.sell-block {
+    margin: 0;
+	padding: 0;
+    font-size: 14px;
+	display:inline-block;
+}
+
+.modalWindow{
+	width:440px;
+}
+
+.footer .left p{
+	display:block;
+}
+
+.finalWrapper a {
+    margin-top: 20px;
+}
+
+.not-timer{
+	display:none;
+}
+
+input[type=submit]{
+	width:320px;
+}
+
+textarea{
+	width:320px;
+	padding:10px 0;
+}
+
+input[type=text], input[type=tel] {
+    width:320px;
+}
+
+.checkout h2 {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.modalWindow h3 {
+    padding: 5px 0px;
+}
+
+.callbackkiller{
+	display:none;
+}
+.catalog .item .hover_block{
+    width: 250px;
+    margin-right: 0;
+    margin: auto;
+}
+
+.catalog .item {
+    width: 320px;
+	left:50%;
+	display:block;
+	margin-left:-180px;
+}
+}
+
+@media (max-width: 440px){
+	.globalWrapper {
+    max-width: 320px;
+    min-width: 320px;
+	-webkit-box-shadow: none;
+	box-shadow:none;
+}
+
+.menuWrapper{
+	width:320px;
+	/* border:1px dotted red; */
+}
+
+.resize {
+    position: relative;
+    width: 320px;
+    margin: 0 auto;
+}
+.my-dost{
+	width: 50%;
+    margin: 0;
+}
+.my-dost h2{
+	font-size: 2em !important;
+}
+.resize_gor_first {
+    width: 320px;
+    margin: 0 auto;
+    display: block;
+}
+
+.news_block img#tolik {
+    width: 320px;
+    margin-top: 35px;
+    height: auto;
+    float: left;
+}
+
+.exp_r {
+    width: 320px;
+}
+
+.banerBg{
+	width:100%; 
+}
+
+.banerBg p.b_text_1 span {
+    margin: auto;
+    display: inline-block;
+    color: #fff;
+    font-size: 22px;
+}
+
+.banerBg p.b_text_1 {
+    margin-top: 0px; 
+  
+}
+
+.news_block p.news_t_4 {
+    padding-left: 0px;
+}
+
+.why ul li {
+    width: 130px;
+}
+
+.feed .owl-carousel .owl-item {
+    width: 320px !important;
+}
+
+.firstWrapper .resize {
+    width: 320px;
+}
+
+.sale_block .left img{
+	margin-left:0px;
+	width:320px;
+}
+
+
+.sale_block .left .sale_t_1 {
+    font-size: 25px;
+    margin-left: 20px;
+   
+}
+
+.sale_block .left .sale_t_2 {
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.owl-item{
+	width:320px;
+}
+
+.feed .owl-item .right2>p{
+	width:320px;
+}
+
+.feed .owl-item .right2{
+	width:320px;
+}
+
+.feed .owl-item .right{
+	width:320px;
+}
+
+.dostavkaWrapper{
+	background:none;
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper h2{
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper ul li{
+	color:#666;
+	text-align:center;
+}
+
+.dostavkaWrapper h2 span{
+	color:#666;
+	text-align:center;
+}
+
+.finalWrapper{
+	width:320px;
+	background:none;
+	height:auto;
+}
+
+.finalWrapper h2 {
+    margin-top: 0;
+}
+
+.footer {
+    width:320px;
+}
+
+.why h2 {
+    font-size: 32px;
+    
+}
+
+.catalog .item .posa {
+    right: -20px;
+}
+
+.dead_magazine.active{
+	width:320px;
+}
+
+.dead_magazine.active .time {
+    width: 250px;
+    top: 40px;
+	left:30px;
+}
+
+.dead_magazine.active h4{
+	font-size:14px;
+	width: 180px;
+	line-height: 14px;
+	text-align:left;
+}
+
+.banerBg p.b_text_4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.banerBg p.b_text_1 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.banerBg p.b_text_1 span {
+    font-size: 18px;
+}
+
+.banerBg p.b_text_2 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.banerBg p.b_text_3 span {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.banerBg p.b_text_5 {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.banerBg p.b_text_6 {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.news_block .news_t_3 span {
+    padding-right: 0px;
+}
+
+.feed{
+	display:none;
+}
+
+.footer .left, .footer .right {
+    width: 320px;
+}
+
+.dostavkaWrapper{
+	height:auto;
+}
+
+.dostavkaWrapper .line{
+	display:none;
+}
+
+.dostavkaWrapper ul{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.dostavkaWrapper h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.dead_magazine,
+.menuBlock,
+.menuWrapper ,
+.hover_pop_up{
+	height:60px;
+}
+
+.popup_corsina h2{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.popup_corsina{
+	width:320px;
+}
+
+.popup_corsina .head {
+    width:320px;
+}
+
+.popup_corsina .head p.tovar{
+	width:90px;
+}
+.popup_corsina .head p.name{
+	display:none;
+}
+.popup_corsina .head p.price{
+	width:60px;
+}
+.popup_corsina .head .kolichestvi{
+	width:70px;
+}
+.popup_corsina .head p.suma{
+	width:50px;
+}
+
+
+
+.buttons_pokupki {
+    width: 320px;
+}
+
+.popup_corsina .tovar_row {
+    width: 320px;
+}
+
+.buttons_pokupki a{
+	width:100%;
+}
+
+.buttons_pokupki a + a {
+	float: left;
+}
+
+.plus-product{
+	display:block;
+}
+
+.sell-block {
+    margin: 0;
+	padding: 0;
+    font-size: 14px;
+	display:inline-block;
+}
+
+.modalWindow{
+	width:320px;
+}
+
+.footer .left p{
+	display:block;
+}
+
+.finalWrapper a {
+    margin-top: 20px;
+}
+
+.not-timer{
+	display:none;
+}
+
+input[type=submit]{
+	width:320px;
+}
+
+textarea{
+	width:320px;
+	padding:10px 0;
+}
+
+input[type=text], input[type=tel] {
+    width:320px;
+}
+
+.checkout h2 {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.modalWindow h3 {
+    padding: 5px 0px;
+}
+
+.callbackkiller{
+	display:none;
+}
+}

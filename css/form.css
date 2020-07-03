@@ -1,0 +1,33 @@
+form {
+	position: relative;
+}
+form label {display: block; position:relative;}
+
+form .error-empty {
+	display: none;
+	color: #FF0000;
+	font-size: 22px;
+	line-height: 22px;
+	width:auto;
+	position: absolute;
+	z-index: 999;
+	right: 58px;
+	top: 19px;
+	margin-top: -5px;
+}
+
+form .success_wrapper .success {
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	text-align: center; z-index: 1000; 
+	padding: 27px 10px; font-size: 26px;
+	line-height: 1.2;
+	color:#000;
+ 	right: 0; display: none; top: 0; 
+ 	border-radius: 4px; 
+ 	-webkit-border-radius: 4px; 
+ 	-moz-border-radius: 4px;
+ }
+
